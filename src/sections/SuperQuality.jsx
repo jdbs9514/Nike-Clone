@@ -9,7 +9,7 @@ const SuperQuality = () => {
       id="quality"
       className="w-full flex xl:flex-row flex-col min-h-screen gap-40 max-container"
     >
-      <div>
+      <div className="sm:flex flex-col">
         <p className="text-xl font-montserrat text-blue-800">STORY</p>
         <h1 className="mt-2 font-palanquin text-4xl max-sm:text[72px] max-sm:leading-[82px] font-bold">
           <span className="text-blue-800 inline-block mt-3">Nike</span> Air Max Origins
@@ -36,24 +36,26 @@ const SuperQuality = () => {
           src={nikebg}
           alt="nike shoe"
         />
-        <div className="flex justify-center border rounded-full border-blue-700 shadow-2xl">
-          <div>
+        <div className="flex flex-col border rounded-full border-blue-700 shadow-2xl lg:flex-row">
+          <div className="md:flex justify-center">
             <img
               src={nikesd}
               alt="nike sd"
-              className="w-[500px] h-[280px]"
+              className="sm:w-[500px] h-[30%] mt-6 md:h-[50%] lg:h-[260px]"
             />
           </div>
           <div className="flex flex-col mt-8">
-            <div>
-              <h2 className="text-blue-800 inline-block mt-3">Nike</h2>
+            <div className="flex justify-center">
+              <h2 className="text-blue-800 mt-3">Nike</h2>
+            </div>
+            <div className="flex justify-center">
               <p className="font-montserrat font-semibold text-2xl">Air Max tavas SD</p>
             </div>
-            <div className="flex gap-10 mt-4">
+            <div className="flex justify-center gap-10 mt-4">
               <p className="font-montserrat font-semibold text-2xl">Price:</p>
               <p className="font-montserrat font-semibold text-2xl text-blue-800">$160</p>
             </div>
-            <div className="mt-8">
+            <div className="mt-6 flex justify-center mb-6">
               <Button
                 label="Buy Now"
                 iconUrl={arrowRight}
