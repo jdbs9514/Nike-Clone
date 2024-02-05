@@ -3,7 +3,7 @@ import { products } from "../constants"
 
 const PopularProducts = () => {
   return (
-    <secton 
+    <section 
       id="products"
       className="max-container max-sm:mt-12"
     >
@@ -22,7 +22,7 @@ const PopularProducts = () => {
           <PopularProductCard key={product.name} {...product} />
         ))}
       </div>
-    </secton>
+    </section>
   )
 }
 
