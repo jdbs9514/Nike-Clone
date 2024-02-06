@@ -28,7 +28,7 @@ $ npm run dev (Run server)
 
 ## Deployment
 
-[click here to check live version](https://dev--lucky-moxie-8d5dd8.netlify.app/)
+[click here to check live version](https://cool-concha-292fc2.netlify.app/)
 
 ## Additional Documentation and Acknowledgments
 
